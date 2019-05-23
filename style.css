@@ -1,0 +1,83 @@
+* {
+    margin : 0;
+    padding : 0;
+    font-family : arial;
+}
+
+header {
+    background-color : lightgreen;
+    padding : 10px;
+    border : 2px solid orange;
+    margin-bottom : 20px;
+}
+
+header h1 {
+    text-align : center;
+    letter-spacing : 5px;
+    word-spacing : 10px;
+}
+
+#addition h2 {
+    text-align : center;
+    padding : 10px;
+}
+
+#addition div {
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+#addition div input:nth-child(even):hover {
+    color : white;
+    background-color : black;
+    cursor : pointer;
+}
+
+#addition div input:nth-child(even){
+    width : 70px;
+    height : 30px;
+    border-radius : 20px;
+}
+
+#addition div input:nth-child(odd) {
+    margin-right : 2%;
+    border-radius : 5px;
+    border : 2px solid green;
+    height : 20px;
+}
+
+#addition div input:focus{
+    outline : none;
+}
+
+#items {
+    position : relative;
+    margin-top : 30px;
+    border : 2px solid orange;
+}
+
+#items h1 {
+    padding : 10px;
+    text-align : center;
+}
+
+#ul {
+    display : grid;
+    grid-template-columns : repeat(2, 1fr);
+    justify-content : center;
+    align-items : center;
+    grid-row-gap : 20px; 
+}
+
+#ul input {
+    width : 30px;
+}
+
+#ul li {
+    list-style-type : decimal;
+    margin-left : 50px;
+    text-align : left;
+}
+
+
